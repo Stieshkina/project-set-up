@@ -1,4 +1,4 @@
-h1 {
+.hero h1 {
   font-family: "Playfair Display", serif;
   font-size: 96px;
   font-weight: bold;
@@ -8,16 +8,27 @@ p,
 h2 {
   font-family: "Poppins", sans-serif;
 }
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: bold;
+}
+
 p {
+  font-size: 2p;
+}
+
+.hero p {
   font-size: 26px;
 }
-h2 {
+.hero h2 {
   color: rgba(64, 59, 59, 0.712);
   font-size: 26px;
 }
 .hero {
   text-align: center;
-  padding: 160px 20px;
+  padding: 180px 20px;
   background-color: #f0ece2;
 }
 .btn-primary {
@@ -31,4 +42,9 @@ h2 {
   background-color: #c7b198;
   border-color: #c7b198;
   color: #2e2a26;
+}
+
+.btn-custom {
+  color: #c7b198;
+  border: 1px solid #c7b198;
 }
