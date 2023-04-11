@@ -105,6 +105,9 @@ h3 {
   font-size: 14px;
   line-height: 30px;
 }
+.active {
+  color: var(--primary-color) !important;
+}
 
 @media (max-width: 900px) {
   .hero h1 {
