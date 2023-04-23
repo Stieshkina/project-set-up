@@ -74,7 +74,7 @@ p {
 }
 
 .container-page {
-  margin: 100px 100px;
+  margin: 100px 100px 50px 100px;
 }
 .container-page h2 {
   font-size: 18px;
